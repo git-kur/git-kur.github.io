@@ -9,14 +9,17 @@
 }
 
 body {
-   
-    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
     font-family: var(--font);
-    
+    background: radial-gradient(ellipse at bottom, var(--bgColor) 0%, var(--bgColor2) 100%);
     /* background-image: url('https://bit.ly/3nFVqJh'); */
-    opacity: 1;
+    opacity: 0;
+    animation: 1s ease-out var(--delay) 1 transitionAnimation; /* duration/timing-function/delay/iterations/name */
     animation-fill-mode: forwards;
-    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
 }
 
@@ -31,16 +34,37 @@ body {
 }
 
 #userName {
+  font-size: 3.35em;
+			font-weight: 900;
+			letter-spacing: -0.035em;
+			line-height: 1em;
     color: var(--accentColor);
-    font-size: 1rem;
+    
     font-weight: bold;
-    line-height: 1.25;
+    
     display: block;
     font-family: var(--font);
     width: 100%;
     text-align: center;
     text-decoration: none;
 }
+
+#designation {
+  font-size: 1.35em;
+			font-weight: 900;
+			letter-spacing: -0.035em;
+			line-height: 1em;
+    color: var(--accentColor);
+    
+    font-weight: bold;
+    
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
 
 #links {
     max-width: 675px;
@@ -101,7 +125,7 @@ body {
 }
 
 
-/*-------------------------mainkeyframe animations-----------------------*/
+/*-------------------------animations-----------------------*/
 @keyframes transitionAnimation {
     0% {
         opacity: 0;
@@ -132,155 +156,9 @@ body {
 }
 
 
-/* BG */
-
-			@-moz-keyframes scrollbg {
-				0% {
-					-moz-transform: translate3d(0,0,0);
-					-webkit-transform: translate3d(0,0,0);
-					-ms-transform: translate3d(0,0,0);
-					transform: translate3d(0,0,0);
-				}
-
-				100% {
-					-moz-transform: translate3d(-1500px,0,0);
-					-webkit-transform: translate3d(-1500px,0,0);
-					-ms-transform: translate3d(-1500px,0,0);
-					transform: translate3d(-1500px,0,0);
-				}
-
-	}
-
-		@-webkit-keyframes scrollbg {
-			0% {
-				-moz-transform: translate3d(0,0,0);
-				-webkit-transform: translate3d(0,0,0);
-				-ms-transform: translate3d(0,0,0);
-				transform: translate3d(0,0,0);
-			}
-
-			100% {
-				-moz-transform: translate3d(-1500px,0,0);
-				-webkit-transform: translate3d(-1500px,0,0);
-				-ms-transform: translate3d(-1500px,0,0);
-				transform: translate3d(-1500px,0,0);
-			}
-			}
-
-		@-ms-keyframes scrollbg {
-			0% {
-				-moz-transform: translate3d(0,0,0);
-				-webkit-transform: translate3d(0,0,0);
-				-ms-transform: translate3d(0,0,0);
-				transform: translate3d(0,0,0);
-			}
-
-			100% {
-				-moz-transform: translate3d(-1500px,0,0);
-				-webkit-transform: translate3d(-1500px,0,0);
-				-ms-transform: translate3d(-1500px,0,0);
-				transform: translate3d(-1500px,0,0);
-			}
-		}
-
-		@keyframes scrollbg {
-			0% {
-				-moz-transform: translate3d(0,0,0);
-				-webkit-transform: translate3d(0,0,0);
-				-ms-transform: translate3d(0,0,0);
-				transform: translate3d(0,0,0);
-			}
-
-			100% {
-				-moz-transform: translate3d(-1500px,0,0);
-				-webkit-transform: translate3d(-1500px,0,0);
-				-ms-transform: translate3d(-1500px,0,0);
-				transform: translate3d(-1500px,0,0);
-			}
-		}
-
-		#scrollbgi{
-			background-size: 1500px auto;
-			width: 4500px;
-      
-		} 
-/* Overlay */
-
-	@-moz-keyframes overlayline {
-		0% {
-			opacity: 0;
-		}
-
-		100% {
-			opacity: 1;
-		}
-	}
-
-	@-webkit-keyframes overlayline {
-		0% {
-			opacity: 0;
-		}
-
-		100% {
-			opacity: 1;
-		}
-	}
-
-	@-ms-keyframes overlayline {
-		0% {
-			opacity: 0;
-		}
-
-		100% {
-			opacity: 1;
-		}
-	}
-
-	@keyframes overlayline {
-		0% {
-			opacity: 0;
-		}
-
-		100% {
-			opacity: 1;
-		}
-	}
-#overlayliner {
-		-moz-animation: overlayline 1.5s 1.5s forwards;
-		-webkit-animation: overlayline 1.5s 1.5s forwards;
-		-ms-animation: overlayline 1.5s 1.5s forwards;
-		animation: overlayline 1.5s 1.5s forwards;
-		background-attachment: fixed, fixed;
-		background-image: url("https://i.imgur.com/blM0PAa.png"), url("https://i.imgur.com/UDLIHeE.png");
-		background-position: top left, center center;
-		background-repeat: repeat, no-repeat;
-		background-size: auto, cover;
-		height: 100%;
-		left: 0;
-		opacity: 0;
-		position: fixed;
-		top: 0;
-		width: 100%;
-	}
-
 /*-------------------------popup------------------------*/
 /* credits: https://www.youtube.com/watch?v=lAS2glU0xlc */
-.overlay {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.7);
-    z-index: 2;
-    visibility: hidden;
-    opacity: 0;
-    overflow: hidden;
-    transition: .5s ease-in-out;
-}
+
 
 .popup {
     position: relative;
@@ -321,17 +199,6 @@ body {
     height: 100%;
 }
 
-.overlay:target {
-    visibility: visible;
-    opacity: 1;
-}
-
-.overlay:target .popup {
-    transform: scale(1);
-    top: 0;
-    /* right: 0; */
-    /* transform: rotate(0); */
-}
 
 .popup-close {
     position: absolute;
@@ -367,33 +234,6 @@ body {
 
 /*-----------------------parallax-----------------------*/
 /* credits: https://www.youtube.com/watch?v=aywzn9cf-_U */
-
-
-
-
-#scrollbgi {
-		-moz-animation: scrollbg  60s linear infinite;
-		-webkit-animation: scrollbg 60s linear infinite;
-		-ms-animation: scrollbg 60s linear infinite;
-		animation: scrollbg 60s linear infinite;
-		-moz-backface-visibility: hidden;
-		-webkit-backface-visibility: hidden;
-		-ms-backface-visibility: hidden;
-		backface-visibility: hidden;
-		-moz-transform: translate3d(0,0,0);
-		-webkit-transform: translate3d(0,0,0);
-		-ms-transform: translate3d(0,0,0);
-		transform: translate3d(0,0,0);
-	/* Set your background with this */
-
-		background: #348cb2 url("https://i.imgur.com/wauqTMj.jpg") bottom left;
-		background-repeat: repeat-x;
-		height: 100%;
-		left: 0;
-		opacity: 1;
-		position: fixed;
-		top: 0;
-	}
 #stars1 {
     width: 1px;
     height: 1px;
@@ -954,4 +794,79 @@ body {
     16px 1650px #fff, 1021px 1075px #fff, 723px 424px #fff, 1175px 41px #fff,
     494px 1957px #fff, 1296px 431px #fff, 175px 1507px #fff, 831px 121px #fff,
     498px 1947px #fff, 617px 880px #fff, 240px 403px #fff;
+}
+
+--------------------------------
+ /* Overlay */
+
+	@-moz-keyframes overlay {
+		0% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 1;
+		}
+	}
+
+	@-webkit-keyframes overlay {
+		0% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 1;
+		}
+	}
+
+	@-ms-keyframes overlay {
+		0% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 1;
+		}
+	}
+
+	@keyframes overlay {
+		0% {
+			opacity: 0;
+		}
+
+		100% {
+			opacity: 1;
+		}
+	}
+
+	#overlayliner {
+		-moz-animation: overlay 1.5s 1.5s forwards;
+		-webkit-animation: overlay 1.5s 1.5s forwards;
+		-ms-animation: overlay 1.5s 1.5s forwards;
+		animation: overlay 1.5s 1.5s forwards;
+		background-attachment: fixed, fixed;
+		background-image: url("https://i.imgur.com/blM0PAa.png"), url("https://i.imgur.com/UDLIHeE.png");
+		background-position: top left, center center;
+		background-repeat: repeat, no-repeat;
+		background-size: auto, cover;
+		height: 100%;
+		left: 0;
+		opacity: 0;
+		position: fixed;
+		top: 0;
+		width: 100%;
+	}
+
+/*-------------------------profile------------------------*/
+
+
+
+#profilePicture, #profilePicture img {
+    position: relative;
+    width: 96px;
+    height: 96px;
+    display: block;
+    margin: 40px auto 20px;
+    border-radius: 50%;
+    -webkit-tap-highlight-color: transparent;
 }
