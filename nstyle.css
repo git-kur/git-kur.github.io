@@ -79,12 +79,13 @@ section, summary, time, mark, audio, video {
 
 
 
-#profilePicture, #profilePicture img {
+ #profilePicture img {
     position: relative;
     width: 96px;
     height: 96px;
     display: block;
     margin: 40px auto 20px;
+	  border: 4px solid white;
     border-radius: 50%;
     -webkit-tap-highlight-color: transparent;
 }
