@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("fontawesome-all.min.css");
 
-  /* headerthis is for alignment and spacing */
+  /* 3rdthis is for alignment and spacing */
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -67,7 +67,8 @@ section, summary, time, mark, audio, video {
 		height: 100%;
 		left: 0;
 		opacity: 1;
-		  position: absolute;
+		position: fixed;
+     z-index: -1;
 		top: 0;}
 
 	#bg {
@@ -85,9 +86,8 @@ section, summary, time, mark, audio, video {
     width: 96px;
     height: 96px;
     display: block;
-    margin: 40px auto 20px;
+    margin: 10px auto 20px;
     border-radius: 50%;
-   border-radius: 50%;
   border: 4px solid white; /* Add a white border */
     -webkit-tap-highlight-color: transparent;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Add a shadow */
@@ -314,9 +314,10 @@ section, summary, time, mark, audio, video {
 		height: 100%;
 		left: 0;
 		opacity: 0;
-		position: fixed;
+		position: absolute;
 		top: 0;
 		width: 100%;
+     z-index: 0;
 	}
 
 /*#overlay::before {
@@ -619,6 +620,8 @@ section, summary, time, mark, audio, video {
 		#header h1 {
 			font-size: 2.5em;
       margin-top: 0;
+        position: relative;
+  z-index: 1;
 		}
 
 		#header p {
