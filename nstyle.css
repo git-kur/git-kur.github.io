@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
 @import url("fontawesome-all.min.css");
 
-  /* tdfdhis is for alignment and spacing */
+  /* headerthis is for alignment and spacing */
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -67,7 +67,7 @@ section, summary, time, mark, audio, video {
 		height: 100%;
 		left: 0;
 		opacity: 1;
-		position: fixed;
+		  position: absolute;
 		top: 0;}
 
 	#bg {
@@ -91,6 +91,7 @@ section, summary, time, mark, audio, video {
   border: 4px solid white; /* Add a white border */
     -webkit-tap-highlight-color: transparent;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Add a shadow */
+   margin-top: 0;
   
 }
 #userName {
@@ -220,6 +221,7 @@ section, summary, time, mark, audio, video {
 			letter-spacing: -0.035em;
 			line-height: 1em;
        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+       margin-top: 0;
 		}
 
 		#header p {
