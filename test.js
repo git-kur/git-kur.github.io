@@ -1,9 +1,12 @@
-function useless(callback) {
-    return callback
-}
+  const mainButton = document.getElementById("mainButton");
+        const secondaryButton = document.getElementById("secondaryButton");
 
-var text = 'Amigo';
+        mainButton.addEventListener("click", () => {
+            mainButton.style.display = "none";
+            secondaryButton.style.display = "block";
+        });
 
-assert(
-    useless(function(){ return text; }) === text,
-    "The useless function works! " + text);
+        secondaryButton.addEventListener("click", () => {
+            secondaryButton.style.display = "none";
+            mainButton.style.display = "block";
+        });
