@@ -2,7 +2,7 @@
 @import url("fontawesome-all.min.css");
 
 /*
-	ChangedphotoAerial by HTML5 UP
+	lineAerial by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
@@ -556,6 +556,7 @@ input, select, textarea {
       font-weight:400;
 			margin: 0.75em 0 0.25em 0;
 			opacity: 0.75;
+       font-style: italic;
       
 		}
 #header-wrapper {
@@ -1064,11 +1065,13 @@ input, select, textarea {
 	}
     
     
-    #profilePicture{ width: 150px; /* Set the desired width and height for the circular profile picture */
-  height: 150px;
+    #profilePicture{ 
+      width: 150px; /* Set the desired width and height for the circular profile picture */
+
+      height: 150px;
   border-radius: 50%; /* Make it a circle by setting the border-radius to 50% */
   overflow: hidden; /* Hide any parts of the image that go beyond the circle */
-  margin: 20px auto; /* Optional: Center the image horizontally and add some margin */
+ margin: 0 auto;  /* Optional: Center the image horizontally and add some margin */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow to the image */
 
 }
@@ -1076,5 +1079,14 @@ input, select, textarea {
     img {
   display: block;
   max-width: 100%;
-  height: auto;
+  border-radius: 50%; height: auto;
+}
+
+
+#horizontal-line {
+  width: 80%; /* Set the width of the line as desired */
+  height: 4px; /* Set the height of the line (1px for a thin line) */
+  background: linear-gradient(to right, transparent 0%, #fff 10%, #fff 90%, transparent 100%);
+  /* Adjust the position and color stops to control the fading effect */
+  margin: 50px auto; /* Optional: Center the line horizontally and add some margin */
 }
