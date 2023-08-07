@@ -87,16 +87,6 @@ input, select, textarea {
 		
 	}
 
-		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
-			-moz-animation: none !important;
-			-webkit-animation: none !important;
-			-ms-animation: none !important;
-			animation: none !important;
-			-moz-transition: none !important;
-			-webkit-transition: none !important;
-			-ms-transition: none !important;
-			transition: none !important;
-		}
 
 	body, input, select, textarea {
 		color: #fff;
@@ -546,7 +536,7 @@ input, select, textarea {
 		cursor: default;
 		display: inline-block;
 		opacity: 0;
-		position: relative;
+		position: auto;
 		text-align: center;
 		top: -1em;
 		vertical-align: middle;
@@ -557,7 +547,7 @@ input, select, textarea {
 			font-size: 4.35em;
 			font-weight: 900;
 			letter-spacing: -0.035em;
-			line-height: 1em;
+			line-height: 1.0em;
 		}
 
 		#header p {
@@ -709,22 +699,6 @@ input, select, textarea {
 					display: none;
 				}
 
-/* Footer */
-
-	#footer {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
-		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
-		bottom: 0;
-		cursor: default;
-		height: 6em;
-		left: 0;
-		line-height: 8em;
-		position: absolute;
-		text-align: center;
-		width: 100%;
-	}
 
 /* Wide */
 
