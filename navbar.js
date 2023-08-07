@@ -1,3 +1,9 @@
+Velocity.RegisterEffect('slideLeftIn', {
+  defaultDuration: 300,
+  calls: [
+    [{ translateX: ['0%', '100%'], opacity: [1, 0] }]
+  ]
+});
 $(document).ready(function() {    $('.open-overlay').click(function() {
        $('.open-overlay').css('pointer-events', 'none');
        var overlay_navigation = $('.overlay-navigation'),
