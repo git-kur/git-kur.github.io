@@ -2,7 +2,7 @@
 @import url("fontawesome-all.min.css");
 
 /*
-	Aerial by HTML5 UP
+	spaceAerial by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
@@ -552,7 +552,9 @@ input, select, textarea {
 
 		#header p1 {
       padding-top: 100px;
-			font-size: 2.75em;
+      padding-bottom: 50px;
+      
+			font-size: 2.0em;
       font-weight:400;
 			margin: 0.55em 0 0.25em 0;
 			opacity: 0.75;
@@ -560,7 +562,8 @@ input, select, textarea {
       
 		}
 #header-wrapper {
-  padding-top: 50px; /* Adjust the value as needed to set the desired padding */
+  padding-top: 50px;
+  padding-bottom: 25px;/* Adjust the value as needed to set the desired padding */
 }
 #header p {
 			font-size: 2.0em;
