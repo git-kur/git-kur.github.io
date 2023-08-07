@@ -1506,7 +1506,7 @@ Animation keyframes
   cursor: pointer;
   color: white;
   overflow: hidden; /* Clip the glint inside the button */
-z-index=100;
+z-index:100;
 align-items: center;
 }
 
