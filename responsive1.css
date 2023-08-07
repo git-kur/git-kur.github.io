@@ -2,7 +2,7 @@
 @import url("fontawesome-all.min.css");
 
 /*
-	2ndAerial by HTML5 UP
+	AddedppAerial by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
@@ -544,7 +544,7 @@ input, select, textarea {
 	}
 
 		#header h1 {
-			font-size: 4.35em;
+			font-size: 4.00em;
 			font-weight: 900;
 			letter-spacing: -0.035em;
 			line-height: 1.0em;
@@ -561,7 +561,7 @@ input, select, textarea {
   padding-top: 80px; /* Adjust the value as needed to set the desired padding */
 }
 #header p {
-			font-size: 1.25em;
+			font-size: 2.0em;
 			margin: 0.75em 0 0.25em 0;
 			opacity: 0.75;
 		}
@@ -960,29 +960,7 @@ input, select, textarea {
 			width: 900px;
 		}
 
-	/* Header */
-
-		#header h1 {
-			font-size: 2.5em;
-		}
-
 	
-		#header p {
-			font-size: 1em;
-		}
-
-		#header nav {
-			font-size: 1em;
-		}
-
-			#header nav a:hover {
-				font-size: 1em;
-			}
-
-			#header nav a:active {
-				font-size: 1em;
-			} }
-
 /* Mobile (Portrait) */
 
 	@media screen and (max-width: 480px) {
@@ -1082,3 +1060,19 @@ input, select, textarea {
 		text-align: center;
 		width: 100%;
 	}
+    
+    
+    #profilePicture{ width: 150px; /* Set the desired width and height for the circular profile picture */
+  height: 150px;
+  border-radius: 50%; /* Make it a circle by setting the border-radius to 50% */
+  overflow: hidden; /* Hide any parts of the image that go beyond the circle */
+  margin: 20px auto; /* Optional: Center the image horizontally and add some margin */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow to the image */
+
+}
+    
+    img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
