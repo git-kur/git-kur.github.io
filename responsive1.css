@@ -2,7 +2,7 @@
 @import url("fontawesome-all.min.css");
 
 /*
-	photoAerial by HTML5 UP
+	marginAerial by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
@@ -1094,7 +1094,7 @@ input, select, textarea {
   height: 2px; /* Set the height of the line (1px for a thin line) */
   background: linear-gradient(to right, transparent 0%, #fff 10%, #fff 90%, transparent 100%);
   /* Adjust the position and color stops to control the fading effect */
-  margin-top: 20px; /* Optional: Center the line horizontally and add some margin */
+  margin: 20px auto; /* Optional: Center the line horizontally and add some margin */
 }
 
 
