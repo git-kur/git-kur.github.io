@@ -2,7 +2,7 @@
 @import url("fontawesome-all.min.css");
 
 /*
-	clearAerial by HTML5 UP
+	photoAerial by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
@@ -1083,6 +1083,8 @@ input, select, textarea {
   display: block;
   max-width: 100%;
   border-radius: 50%; height: auto;
+      object-fit: cover;
+      aspect-ratio: 1 / 1;/
 }
 
 
