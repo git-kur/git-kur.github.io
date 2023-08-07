@@ -2,7 +2,7 @@
 @import url("fontawesome-all.min.css");
 
 /*
-	spaceAerial by HTML5 UP
+	clearAerial by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
@@ -1092,11 +1092,11 @@ input, select, textarea {
   height: 2px; /* Set the height of the line (1px for a thin line) */
   background: linear-gradient(to right, transparent 0%, #fff 10%, #fff 90%, transparent 100%);
   /* Adjust the position and color stops to control the fading effect */
-  margin: 20px auto; /* Optional: Center the line horizontally and add some margin */
+  margin-top: 20px; /* Optional: Center the line horizontally and add some margin */
 }
 
 
-.email-button {
+.nav-button {
     display: inline-block;
   width: 80px; /* Set the desired size for the circle button */
   height: 80px;
@@ -1107,11 +1107,13 @@ input, select, textarea {
   color: #fff; /* Set the color for the email icon */
    border: 1px solid #fff;
   font-size: 40px; /* Adjust the icon size as needed */
-   margin-top: 20px; 
+   margin-top: 20px;
+  margin-right: 10px;
+  margin-bottom: 20px;
 }
 
 /* Optional: Add a subtle hover effect */
-.email-button:hover {
+.nav-button:hover {
   background-color: #fff; /* Change the background color on hover */
   color: #000; /* Change the icon color on hover */
 }
