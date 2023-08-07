@@ -1,8 +1,4 @@
-<!-- Add the latest version of the Velocity.js library -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/2.0.5/velocity.min.js"></script>
 
-<!-- Your jQuery and other scripts go here -->
-<script>
   $(document).ready(function() {
     $('.open-overlay').click(function() {
       $('.open-overlay').css('pointer-events', 'none');
@@ -65,4 +61,4 @@
       }
     });
   });
-</script>
+
