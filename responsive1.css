@@ -2,7 +2,7 @@
 @import url("fontawesome-all.min.css");
 
 /*
-	Aerial by HTML5 UP
+	1stAerial by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
@@ -1053,3 +1053,22 @@ input, select, textarea {
 		#header nav {
 			padding: 0 1em;
 		} }
+
+
+/* Footer */
+
+	#footer {
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
+		background-image: linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,0.5) 75%);
+		bottom: 0;
+		cursor: default;
+		
+		left: 0;
+		
+		position: absolute;
+		text-align: center;
+		width: 100%;
+     padding: 20px;
+	}
