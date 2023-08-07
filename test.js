@@ -1,11 +1,11 @@
-$( document ).ready(function() {  const mainButton = document.getElementById("mainButton");
-        const secondaryButton = document.getElementById("secondaryButton");
+    $(document).ready(function() {
+            $("#mainButton").click(function() {
+                $(this).hide();
+                $("#secondaryButton").show();
+            });
 
-        mainButton.addEventListener("click", () => {mainButton.style.display = "none";
-            secondaryButton.style.display = "block";
+            $("#secondaryButton").click(function() {
+                $(this).hide();
+                $("#mainButton").show();
+            });
         });
-
-        secondaryButton.addEventListener("click", () => {secondaryButton.style.display = "none";
-            mainButton.style.display = "block";
-        });
-                               }
