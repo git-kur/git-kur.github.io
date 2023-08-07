@@ -1,3 +1,4 @@
+ $(document).ready(function() {
      $('.glint-button-container').click(function() {
        $('.glint-button-container').css('pointer-events', 'none');
        var overlay_navigation = $('.overlay-navigation'),
@@ -53,3 +54,4 @@
          })
        }
      })
+ });
