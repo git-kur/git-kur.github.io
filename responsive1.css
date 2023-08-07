@@ -2,7 +2,7 @@
 @import url("fontawesome-all.min.css");
 
 /*
-	emailAerial by HTML5 UP
+	Aerial by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
@@ -551,21 +551,21 @@ input, select, textarea {
 		}
 
 		#header p1 {
-      padding-top: 200px;
+      padding-top: 100px;
 			font-size: 2.75em;
       font-weight:400;
-			margin: 0.75em 0 0.25em 0;
+			margin: 0.55em 0 0.25em 0;
 			opacity: 0.75;
        font-style: italic;
       
 		}
 #header-wrapper {
-  padding-top: 80px; /* Adjust the value as needed to set the desired padding */
+  padding-top: 50px; /* Adjust the value as needed to set the desired padding */
 }
 #header p {
 			font-size: 2.0em;
   font-weight:400;
-			margin: 0.75em 0 0.25em 0;
+			margin: 0.15em 0 0.25em 0;
 			opacity: 0.75;
 		}
 
@@ -1084,11 +1084,12 @@ input, select, textarea {
 
 
 #horizontal-line {
+  
   width: 80%; /* Set the width of the line as desired */
   height: 2px; /* Set the height of the line (1px for a thin line) */
   background: linear-gradient(to right, transparent 0%, #fff 10%, #fff 90%, transparent 100%);
   /* Adjust the position and color stops to control the fading effect */
-  margin: 50px auto; /* Optional: Center the line horizontally and add some margin */
+  margin: 20px auto; /* Optional: Center the line horizontally and add some margin */
 }
 
 
