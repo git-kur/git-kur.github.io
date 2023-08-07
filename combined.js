@@ -47,7 +47,7 @@
                    delay: 0,
                    duration: 50
                  });
-                 $('.open-overlay').css('pointer-events', 'auto');
+                 $('.glint-button-container').css('pointer-events', 'auto');
                }
              });
            }
