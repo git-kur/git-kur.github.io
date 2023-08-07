@@ -1085,7 +1085,7 @@ input, select, textarea {
 
 #horizontal-line {
   width: 80%; /* Set the width of the line as desired */
-  height: 4px; /* Set the height of the line (1px for a thin line) */
+  height: 2px; /* Set the height of the line (1px for a thin line) */
   background: linear-gradient(to right, transparent 0%, #fff 10%, #fff 90%, transparent 100%);
   /* Adjust the position and color stops to control the fading effect */
   margin: 50px auto; /* Optional: Center the line horizontally and add some margin */
