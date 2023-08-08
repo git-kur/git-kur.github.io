@@ -1,0 +1,14 @@
+{
+  "name": "@christophe-yamahata/donut-pie-chart-race",
+  "main": "f94304299266468b@1726.js",
+  "version": "1726.0.0",
+  "homepage": "https://observablehq.com/@christophe-yamahata/donut-pie-chart-race",
+  "author": {
+    "name": "Christophe Yamahata",
+    "url": "https://observablehq.com/@christophe-yamahata"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
